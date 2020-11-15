@@ -1,0 +1,96 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainHeader{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(cafeMain3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutHeader{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(cafeAboutUs.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.MenuList{
+    height: 100px;
+    background-color: white;
+    top: 70%;
+    position: absolute;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 35px;
+    
+}
+
+ul li{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding:5px 20px;
+    transition: 0.6s ease;
+    
+}
+
+ul li.active a{
+    color:red !important;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color:red !important;
+    text-decoration: none;
+}
+
+.brand img{
+    float: right;
+    width:150px;
+    height: auto;
+}
+
+
+
+.wrap{
+    top:40px;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.wrap .socialLinks {
+        width: 232px;
+}
+.wrap .socialLinks  a{
+    color: white;
+}
+
+
+.wrap .socialLinks  i{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.aboutlogo img{
+     width:150px;
+    height: auto;
+}
